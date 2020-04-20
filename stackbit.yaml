@@ -535,6 +535,10 @@ models:
         label: Label
         required: true
       - type: string
+        name: icon
+        label: Icon
+        description: Enter the font-awesome icon class (eg, fab fa-500px)
+      - type: string
         name: url
         label: URL
         required: true
