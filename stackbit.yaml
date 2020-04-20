@@ -151,6 +151,7 @@ models:
           labelField: title
           models:
             - section_content
+            - section_raw
             - section_cta
             - section_faq
             - section_features
