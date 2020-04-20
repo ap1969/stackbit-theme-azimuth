@@ -12,7 +12,7 @@
         <h2 class="block-title underline">{{ section.title }}</h2>
         {% endif %}
         <div class="block-copy">
-          {{ section.content }}
+          {{ section.content | safe }}
         </div>
         {% if section.actions %}
           {% set include_dict = {'actions': section.actions} %}
