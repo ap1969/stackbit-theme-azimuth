@@ -262,6 +262,33 @@ models:
         label: Action Buttons
         items:
           type: action
+  section_raw:
+    type: object
+    label: Raw HTML Section
+    extends:
+      - section
+    fields:
+      - type: string
+        name: content
+        label: Content
+        description: The raw HTML content of the section
+      - type: image
+        name: image
+        label: Image
+        description: The image of the section
+      - type: enum
+        name: background
+        label: Background
+        description: The background of the section
+        options:
+          - gray
+          - white
+        default: gray
+      - type: list
+        name: actions
+        label: Action Buttons
+        items:
+          type: action
   section_cta:
     type: object
     label: Call to Action Section
