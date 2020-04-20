@@ -520,3 +520,8 @@ models:
         label: Open in new window
         default: true
         description: Should the link open a new tab
+      - type: string
+        name: icon
+        label: Icon
+        required: false
+        description: Material-ui icon name
